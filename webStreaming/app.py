@@ -19,7 +19,7 @@ def generate_frames():
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('htmlPG.html')
 
 @app.route('/video')
 def video():
